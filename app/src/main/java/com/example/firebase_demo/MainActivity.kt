@@ -33,14 +33,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         //Add data to firebase real time database
-        /*add.setOnClickListener{
+        add.setOnClickListener{
             val name_txt = name.text.toString()
             if(name_txt.isEmpty()){
                 Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
             }else{
                 FirebaseDatabase.getInstance().getReference().child("Test").push().setValue(name_txt)
             }
-        }*/
+        }
 
         //Create Array list
         val list = ArrayList<String>()
